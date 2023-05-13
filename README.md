@@ -1,8 +1,13 @@
-description in progress...
-
-The project demonstrates usage of Spring, MVC structure, including service and repository classas, validator, SQL, Spring Data JPA, Thymeleaf, HTML. The project represents itself as a modified accounting system in a library, where users of the library are registered and books are assigned to the users.
+The project demonstrates usage of Spring, MVC structure, including service and repository classes, validator, SQL, Spring Data JPA, Thymeleaf, HTML. The project represents itself as a modified accounting system in a library, where users of the library are registered and books are assigned to the users.
 
 Artifact deployment using Tomcat v.9 should be set before running the server.
+
+Full description in progress...
+
+
+
+
+
 1. In browser, enter http://localhost:8080/people
 There you can read information about users of books or enter new person data ("Добавить человека"). By clicking on person's name you can choose, whether to edit his data ("Редактировать") or to delete this person's entry completely ("удалить"). Also, by clicking on person's name you can you can find out which books does he currently posess.
 In browser, enter http://localhost:8080/books
