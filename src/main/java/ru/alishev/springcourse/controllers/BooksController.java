@@ -5,15 +5,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.alishev.springcourse.dao.BookDAO;
-import ru.alishev.springcourse.dao.PersonDAO;
 import ru.alishev.springcourse.models.Book;
 import ru.alishev.springcourse.models.Person;
 import ru.alishev.springcourse.services.BookService;
 import ru.alishev.springcourse.services.PeopleService;
 
 import javax.validation.Valid;
-import java.util.Optional;
 
 @Controller
 @RequestMapping("/books")
