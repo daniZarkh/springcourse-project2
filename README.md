@@ -2,15 +2,5 @@ The project demonstrates usage of Spring, MVC structure, including service and r
 
 Artifact deployment using Tomcat v.9 should be set before running the server.
 
-Full description in progress...
+Full description in progress, yet...
 
-
-
-
-
-1. In browser, enter http://localhost:8080/people
-There you can read information about users of books or enter new person data ("Добавить человека"). By clicking on person's name you can choose, whether to edit his data ("Редактировать") or to delete this person's entry completely ("удалить"). Also, by clicking on person's name you can you can find out which books does he currently posess.
-In browser, enter http://localhost:8080/books
-There you can read information about books (title, author, year of publishing) or enter new book data ("Добавить книгу"). By clicking on books's title you can choose, whether to edit its data ("Редактировать"), to delete this book's entry completely ("удалить"), or to assign the book to the one of users (on the book's page choose a name of a particular user and press "Назначить книгу").
-When the book is returned to the library press "Освободить книгу".
-Information about a current user of each book is updated simultaneously on all pages.
